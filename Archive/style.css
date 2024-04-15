@@ -1,0 +1,156 @@
+/* styles.css */
+
+/* Add this style to make the homepage white */
+#homepage {
+    background-color: #fff;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; 
+}
+
+header, footer {
+    background-color: #ff0000; 
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 70%; 
+}
+
+#menu {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #050505;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff7f7;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: #f3acac;
+}
+
+.category-wrapper {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.menu-item-image {
+    width: 100px; 
+    height: 100px; 
+    margin-right: 20px;
+    border-radius: 5px;
+}
+header h1 {
+    color: #000; 
+    margin-bottom: 10px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ec1a1a;
+}
+
+.search-container button:hover {
+    background-color: #ddd;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000; /* Text color changed to black */
+    font-weight: bold;
+    transition: color 0.3s; /* Add smooth transition */
+}
+
+nav ul li a:hover {
+    color: #c21616; /* Change color on hover */
+}
+
+/* Footer */
+footer {
+    background-color: #ff0000; /* Set footer background color to red */
+    padding: 20px;
+    text-align: center;
+    color: #000; /* Set text color to black */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Make the list items flex containers */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #eee1e1;
+    font-weight: bold;
+    transition: color 0.3s; /* Add smooth transition */
+}
+
+nav ul li a:hover {
+    color: #c21616; /* Change color on hover */
+}
