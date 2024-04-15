@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The UH Bistro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="UH.png" alt="UH" width="200">
+        <h1>The UH Bistro</h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button type="button" onclick="search()">Search</button>
+        </div>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="#homepage">Homepage</a></li>
+                <li><a href="#about-vidhi">About Us</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+                <li><a href="#order-ahead">Order Ahead</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#career">Career</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <div class="restaurant-list">
+            <p>Vidhi's Delights - SAB Building</p>
+            <p>Vidhi's Coffee and more - BH Building 2</p>
+            <p>Vidhi's Diverse Food - Library</p>
+        </div>
+        <img src="download.jpg" alt="download" width="200">
+        <img src="taco.jpg" alt="taco" width="200">
+        <img src="dessert.jpg" alt="dessert" width="200">
+        <img src="BOGO.jpg" alt="BOGO" width="200">
+        <p>Open Mon-Fri: 8:00am - 6:00pm</p>
+    </header>
+    <!-- About Us Section -->
+    <section id="about-vidhi">
+        <h2>About Vidhi</h2>
+        <img src="headshot.jpg" alt="Headshot" width="200"> 
+            <h2>Early Years</h2>
+            <p>Vidhi was born and raised in Houston, Texas. She is currently a student at the University of Houston and loves serving in the culinary department of the Sugar Land campus of University of Houston. Vidhi has been on her culinary journey for about 3 years, and throughout that journey, she has developed some culinary skills like service, presentation on the plate, the taste of her food, and building her techniques.</p>
+          </section>
+          <section id="opening-of-uh-UH-Bistro">
+            <h2>Opening of The UH Bistro</h2>
+            <p>Vidhi has always had a passion for food, and she has always wanted to start her own business. Even though she is young and still in college, she opened a Bistro at the University of Houston - Sugar Land. With the help of her family and friends, her culinary pursuits became a reality. While being a college student, she has been able to focus on school and her bistro since they are all in the same place.</p>
+          </section>
+          <section id="about-vidhi-outside-of-the-bistro">
+            <h2>About Vidhi outside of the Bistro</h2>
+            <p>When Vidhi isn't spending her time at the bistro, she enjoys spending time with her friends and family. She loves to explore new stuff like coffee, outdoor activities, and shopping. Even though she loves food, she has a side of her where she loves to bake.</p>
+          </section>
+          <main>
+            <!-- Menu Section -->
+            <div id="menu"></div>
+        </main>
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <!-- Add content for the contact us section here -->
+        <p>Contact us for any inquiries or feedback.</p>
+        <p>Email: info@uhbistro.com</p>
+        <p>Phone: +1 (123) 456-7890</p>
+    </section>
+
+    <section id="order-ahead">
+        <h2>Order Ahead</h2>
+        <!-- Add content for the order ahead section here -->
+        <p>Order your favorite dishes ahead of time and skip the line!</p>
+        <p>Call us at least 30 minutes before pickup.</p>
+        <p>Use <a href="https://www.starship.xyz/coop/" target="_blank">Starship app</a> for pickup and delivery options. Download it <a href="https://www.starship.xyz/coop/" target="_blank">here</a>.</p>
+    </section>
+    <main>
+        <!-- Order Form -->
+        <form id="order-form">
+            <label for="item">Item:</label>
+            <input type="text" id="item" name="item">
+            <br>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+            <br>
+            <fieldset>
+                <legend>Pickup or Delivery:</legend>
+                <input type="radio" id="pickup" name="pickup-delivery" value="pickup">
+                <label for="pickup">Pickup</label>
+                <input type="radio" id="delivery" name="pickup-delivery" value="delivery">
+                <label for="delivery">Delivery</label>
+            </fieldset>
+            <br>
+            <button type="submit">Place Order</button>
+        </form>
+        <p id="error-message" class="error-message"></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 UoH Sugarland Cafeteria. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
